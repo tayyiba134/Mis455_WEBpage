@@ -2,6 +2,10 @@ function showAlert() {
     alert("Welcome to our store!");
 }
 
+function buyProduct() {
+    alert("Product added to cart!");
+}
+
 function validateForm() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
